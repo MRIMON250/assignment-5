@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssfile/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Money Bank</title>
+</head>
+<body>
+    <header>
+        <h1 class="head-of-title">Saving your money with some calculation</h1>
+    </header>
+    <main>
+       <section class="calculation">
+            <div class="row gx-5 ">
+              <div class="col frome-colam">
+                <img src="img/bank.jpg" alt="">
+              </div>
+              <div class="col from-section">
+                <h3 class="income-title">Income</h3>
+                <p  class="income">Income: <input id="income-input" type="text"></p>
+                <p class="err-in-text">please write the the number not text</p>
+                <h3 class="expenses-title">Expenses</h3>
+                <p  class="food">Food: <input id="food-input" type="text"></p>
+                <p class="rent">Rent: <input id="rent-input" type="text"></p>
+                <p class="clothes">Clothes: <input id="clothes-input" type="text"></p>
+                <p class="err-in-negative-numbers">Please do not enter any negative numbers</p>
+                <button id="calculate-button" class="calculate">Calculate</button>
+                <h3 class="expenses">Total Expenses:$<span id="totle-expenses-amount">0000</span></h3>
+                <h3 class="balance">Balance:$<span id="totle-balance-amount">0000</span></h3>
+               <div class="saving-section">
+                <p>Save: <input id="saveing-input" type="text">  <button id="saveing-button" class="button-btn">Save</button></p>
+                <h3>Saving Amount:<samp id="saving-amount">0</samp></h3>
+                <h3>Raving Balance:<samp id="raving-balance">0</samp></h3>
+
+               </div>
+              </div>
+          </div>
+       </section>
+    </main>
+    <script src="js-file/bootstrap.bundle.min.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>

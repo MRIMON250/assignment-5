@@ -1,0 +1,72 @@
+.calculation{
+    margin: 50px;
+}
+.head-of-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.from-section{
+    background-color: #F8F8F8;
+    
+}
+.income-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.income{
+    text-align: center; 
+    margin-right: 20px;
+}
+.expenses-title{
+    text-align: center; 
+    margin-bottom: 10px;
+}
+.food{
+    text-align: center;
+    margin-bottom: 10px;  
+}
+.rent{
+    text-align: center;
+    margin-bottom: 10px;  
+}
+.clothes{
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;  
+}
+.calculate{
+    margin-left: 42%;
+    margin-bottom: 10px; 
+    color: white; 
+    background-color: #59A5FF;
+    width: 20%;
+}
+.expenses{
+    text-align: center;
+    margin-bottom: 10px;  
+
+}
+.balance{
+    text-align: center;
+    margin-bottom: 10px;     
+}
+.err-in-text{
+    text-align: center;
+    color: red;
+    display: none;
+}
+.err-in-negative-numbers{
+    text-align: center;
+    color: red;
+    display: none;
+}
+.saving-section{
+text-align: center;
+margin-top: 10px;
+}
+.button-btn{
+    color: white; 
+    background-color: #59A5FF;
+    width: 20%;
+}
